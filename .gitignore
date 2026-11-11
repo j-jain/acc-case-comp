@@ -1,0 +1,20 @@
+# Personal Claude Code settings
+.claude/
+
+# Node / Python build leftovers
+node_modules/
+__pycache__/
+*.pyc
+
+# Test builds from deck_source (the real decks live one level up)
+**/deck_source/deck.pptx
+**/deck_source/summary_doc/summary.docx
+
+# Office lock files (created while a .pptx/.docx is open)
+~$*
+*.tmp
+
+# OS clutter
+Thumbs.db
+desktop.ini
+.DS_Store
